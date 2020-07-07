@@ -11,7 +11,7 @@ def list_dwarves(array)
   # Print a numbered list of each element
   hash = Hash.new
 array.each_with_index do |item, index|
-puts "#{index + 1}. #{item}
+puts "#{index + 1}. #{item}"
 # dwarves = ["Dopey", "Grumpy", "Bashful"]
   end
 end
