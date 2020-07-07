@@ -12,7 +12,6 @@ def list_dwarves(array)
   hash = Hash.new
 array.each_with_index |item, index|
 puts "#{index + 1}"
-puts #{list_dwarves}{ item, index }
 # dwarves = ["Dopey", "Grumpy", "Bashful"]
   end
 end
