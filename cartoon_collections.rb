@@ -14,7 +14,5 @@ array.each_with_index
 puts #{list_dwarves}{ |item, index|
  
 }
-  
-
-end
+  end
 end
